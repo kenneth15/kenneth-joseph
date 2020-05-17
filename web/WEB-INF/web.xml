@@ -4,9 +4,17 @@
         <servlet-name>Productos</servlet-name>
         <servlet-class>controlador.Productos</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>descargar</servlet-name>
+        <servlet-class>controlador.DescargaServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Productos</servlet-name>
         <url-pattern>/Productos</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>descargar</servlet-name>
+        <url-pattern>/descargar</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

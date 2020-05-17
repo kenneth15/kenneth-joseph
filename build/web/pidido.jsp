@@ -21,5 +21,9 @@
         <c:forEach items="${Productos}" var="Productos">
             <td>${resul}</td>
         </c:forEach>
+   
+        <div>Descargar de Archivos</div>
+        <a href="/Practica001/DescargaServlet">Descargar</a>
+    
     </body>
 </html>
